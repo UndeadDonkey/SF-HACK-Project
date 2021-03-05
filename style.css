@@ -1,10 +1,13 @@
 .dropdown {
     position: relative;
+    display: inline-block;
 }
 
 .dropdown-content{
     display: none;
     position: absolute;
+    background-color: white;
+    width: 100px;
 }
 
 .dropdown:hover .dropdown-content {
