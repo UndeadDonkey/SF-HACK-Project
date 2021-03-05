@@ -1,0 +1,400 @@
+{
+    "bed": [
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/malm-bed-frame-high-black-brown-luroey__0638608_pe699032_s5.jpg?f=xxs",
+            "name": "MALM",
+            "price": "199",
+            "url": "https://www.ikea.com/us/en/p/malm-bed-frame-high-black-brown-luroey-s69009475/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/malm-high-bed-frame-2-storage-boxes-black-brown-luroey__0637597_pe698414_s5.jpg?f=xxs",
+            "name": "MALM",
+            "price": "274",
+            "url": "https://www.ikea.com/us/en/p/malm-high-bed-frame-2-storage-boxes-black-brown-luroey-s69176285/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/brimnes-bed-frame-with-storage-headboard-white-luroey__0638600_pe699029_s5.jpg?f=xxs",
+            "name": "BRIMNES",
+            "price": "379",
+            "url": "https://www.ikea.com/us/en/p/brimnes-bed-frame-with-storage-headboard-white-luroey-s59129609/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/nordli-bed-with-headboard-and-storage-white__0749134_pe745503_s5.jpg?f=xxs",
+            "name": "NORDLI",
+            "price": "549",
+            "url": "https://www.ikea.com/us/en/p/nordli-bed-with-headboard-and-storage-white-s69241422/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/hemnes-daybed-frame-with-3-drawers-white__0636371_pe697851_s5.jpg?f=xxs",
+            "name": "HEMNES",
+            "price": "299",
+            "url": "https://www.ikea.com/us/en/p/hemnes-daybed-frame-with-3-drawers-white-30349329/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/slattum-upholstered-bed-frame-knisa-light-gray__0768244_pe754388_s5.jpg?f=xxs",
+            "name": "SLATTUM",
+            "price": "129",
+            "url": "https://www.ikea.com/us/en/p/slattum-upholstered-bed-frame-knisa-light-gray-60464407/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/sagstua-bed-frame-black-luroey__0662135_pe719104_s5.jpg?f=xxs",
+            "name": "SAGSTUA",
+            "price": "199",
+            "url": "https://www.ikea.com/us/en/p/sagstua-bed-frame-black-luroey-s29268871/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/brimnes-bed-frame-with-storage-black-luroey__0638599_pe699030_s5.jpg?f=xxs",
+            "name": "BRIMNES",
+            "price": "249",
+            "url": "https://www.ikea.com/us/en/p/brimnes-bed-frame-with-storage-black-luroey-s69007551/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/hemnes-bed-frame-white-stain-luroey__0637516_pe698353_s5.jpg?f=xxs",
+            "name": "HEMNES",
+            "price": "229",
+            "url": "https://www.ikea.com/us/en/p/hemnes-bed-frame-white-stain-luroey-s99007856/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/songesand-bed-frame-with-4-storage-boxes-brown-luroey__0638590_pe699026_s5.jpg?f=xxs",
+            "name": "SONGESAND",
+            "price": "279",
+            "url": "https://www.ikea.com/us/en/p/songesand-bed-frame-with-4-storage-boxes-brown-luroey-s89241195/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/malm-high-bed-frame-4-storage-boxes-black-brown-luroey__0637597_pe698414_s5.jpg?f=xxs",
+            "name": "MALM",
+            "price": "349",
+            "url": "https://www.ikea.com/us/en/p/malm-high-bed-frame-4-storage-boxes-black-brown-luroey-s79009502/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/hauga-upholstered-bed-frame-vissle-gray__0789232_pe764315_s5.jpg?f=xxs",
+            "name": "HAUGA",
+            "price": "179",
+            "url": "https://www.ikea.com/us/en/p/hauga-upholstered-bed-frame-vissle-gray-90446365/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/leirvik-bed-frame-white-luroey__0637552_pe704561_s5.jpg?f=xxs",
+            "name": "LEIRVIK",
+            "price": "129",
+            "url": "https://www.ikea.com/us/en/p/leirvik-bed-frame-white-luroey-s09277292/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/tufjord-upholstered-bed-frame-gunnared-blue__0859775_pe781090_s5.jpg?f=xxs",
+            "name": "TUFJORD",
+            "price": "649",
+            "url": "https://www.ikea.com/us/en/p/tufjord-upholstered-bed-frame-gunnared-blue-50465695/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/slaekt-bed-frame-w-pull-out-bed-storage-white__0637775_pe698535_s5.jpg?f=xxs",
+            "name": "SL\u00c4KT",
+            "price": "229",
+            "url": "https://www.ikea.com/us/en/p/slaekt-bed-frame-w-pull-out-bed-storage-white-s19239450/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/trysil-bed-frame-dark-brown-luroey__0638591_pe699025_s5.jpg?f=xxs",
+            "name": "TRYSIL",
+            "price": "189",
+            "url": "https://www.ikea.com/us/en/p/trysil-bed-frame-dark-brown-luroey-s09007813/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/hemnes-bed-frame-with-4-storage-boxes-dark-gray-stained-luroey__0580344_pe670128_s5.jpg?f=xxs",
+            "name": "HEMNES",
+            "price": "349",
+            "url": "https://www.ikea.com/us/en/p/hemnes-bed-frame-with-4-storage-boxes-dark-gray-stained-luroey-s19227584/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/songesand-bed-frame-brown-luroey__0638582_pe699001_s5.jpg?f=xxs",
+            "name": "SONGESAND",
+            "price": "179",
+            "url": "https://www.ikea.com/us/en/p/songesand-bed-frame-brown-luroey-s59241069/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/slaekt-bed-frame-w-storage-slatted-bedbase-white__0648346_pe704865_s5.jpg?f=xxs",
+            "name": "SL\u00c4KT",
+            "price": "249",
+            "url": "https://www.ikea.com/us/en/p/slaekt-bed-frame-w-storage-slatted-bedbase-white-s99291991/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/songesand-bed-frame-with-2-storage-boxes-white-luroey__0637607_pe698419_s5.jpg?f=xxs",
+            "name": "SONGESAND",
+            "price": "209",
+            "url": "https://www.ikea.com/us/en/p/songesand-bed-frame-with-2-storage-boxes-white-luroey-s99241265/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/tarva-bed-frame-pine-luroey__0637611_pe698421_s5.jpg?f=xxs",
+            "name": "TARVA",
+            "price": "149",
+            "url": "https://www.ikea.com/us/en/p/tarva-bed-frame-pine-luroey-s29007794/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/malm-storage-bed-black-brown__0749129_pe745498_s5.jpg?f=xxs",
+            "name": "MALM",
+            "price": "499",
+            "url": "https://www.ikea.com/us/en/p/malm-storage-bed-black-brown-90404817/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/malm-bed-frame-high-black-brown-luroey__0638608_pe699032_s5.jpg?f=xxs",
+            "name": "MALM",
+            "price": "199",
+            "url": "https://www.ikea.com/us/en/p/malm-bed-frame-high-black-brown-luroey-s69009475/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/malm-high-bed-frame-2-storage-boxes-black-brown-luroey__0637597_pe698414_s5.jpg?f=xxs",
+            "name": "MALM",
+            "price": "274",
+            "url": "https://www.ikea.com/us/en/p/malm-high-bed-frame-2-storage-boxes-black-brown-luroey-s69176285/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/brimnes-bed-frame-with-storage-headboard-white-luroey__0638600_pe699029_s5.jpg?f=xxs",
+            "name": "BRIMNES",
+            "price": "379",
+            "url": "https://www.ikea.com/us/en/p/brimnes-bed-frame-with-storage-headboard-white-luroey-s59129609/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/nordli-bed-with-headboard-and-storage-white__0749134_pe745503_s5.jpg?f=xxs",
+            "name": "NORDLI",
+            "price": "549",
+            "url": "https://www.ikea.com/us/en/p/nordli-bed-with-headboard-and-storage-white-s69241422/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/hemnes-daybed-frame-with-3-drawers-white__0636371_pe697851_s5.jpg?f=xxs",
+            "name": "HEMNES",
+            "price": "299",
+            "url": "https://www.ikea.com/us/en/p/hemnes-daybed-frame-with-3-drawers-white-30349329/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/slattum-upholstered-bed-frame-knisa-light-gray__0768244_pe754388_s5.jpg?f=xxs",
+            "name": "SLATTUM",
+            "price": "129",
+            "url": "https://www.ikea.com/us/en/p/slattum-upholstered-bed-frame-knisa-light-gray-60464407/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/sagstua-bed-frame-black-luroey__0662135_pe719104_s5.jpg?f=xxs",
+            "name": "SAGSTUA",
+            "price": "199",
+            "url": "https://www.ikea.com/us/en/p/sagstua-bed-frame-black-luroey-s29268871/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/brimnes-bed-frame-with-storage-black-luroey__0638599_pe699030_s5.jpg?f=xxs",
+            "name": "BRIMNES",
+            "price": "249",
+            "url": "https://www.ikea.com/us/en/p/brimnes-bed-frame-with-storage-black-luroey-s69007551/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/hemnes-bed-frame-white-stain-luroey__0637516_pe698353_s5.jpg?f=xxs",
+            "name": "HEMNES",
+            "price": "229",
+            "url": "https://www.ikea.com/us/en/p/hemnes-bed-frame-white-stain-luroey-s99007856/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/songesand-bed-frame-with-4-storage-boxes-brown-luroey__0638590_pe699026_s5.jpg?f=xxs",
+            "name": "SONGESAND",
+            "price": "279",
+            "url": "https://www.ikea.com/us/en/p/songesand-bed-frame-with-4-storage-boxes-brown-luroey-s89241195/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/malm-high-bed-frame-4-storage-boxes-black-brown-luroey__0637597_pe698414_s5.jpg?f=xxs",
+            "name": "MALM",
+            "price": "349",
+            "url": "https://www.ikea.com/us/en/p/malm-high-bed-frame-4-storage-boxes-black-brown-luroey-s79009502/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/hauga-upholstered-bed-frame-vissle-gray__0789232_pe764315_s5.jpg?f=xxs",
+            "name": "HAUGA",
+            "price": "179",
+            "url": "https://www.ikea.com/us/en/p/hauga-upholstered-bed-frame-vissle-gray-90446365/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/leirvik-bed-frame-white-luroey__0637552_pe704561_s5.jpg?f=xxs",
+            "name": "LEIRVIK",
+            "price": "129",
+            "url": "https://www.ikea.com/us/en/p/leirvik-bed-frame-white-luroey-s09277292/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/tufjord-upholstered-bed-frame-gunnared-blue__0859775_pe781090_s5.jpg?f=xxs",
+            "name": "TUFJORD",
+            "price": "649",
+            "url": "https://www.ikea.com/us/en/p/tufjord-upholstered-bed-frame-gunnared-blue-50465695/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/slaekt-bed-frame-w-pull-out-bed-storage-white__0637775_pe698535_s5.jpg?f=xxs",
+            "name": "SL\u00c4KT",
+            "price": "229",
+            "url": "https://www.ikea.com/us/en/p/slaekt-bed-frame-w-pull-out-bed-storage-white-s19239450/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/trysil-bed-frame-dark-brown-luroey__0638591_pe699025_s5.jpg?f=xxs",
+            "name": "TRYSIL",
+            "price": "189",
+            "url": "https://www.ikea.com/us/en/p/trysil-bed-frame-dark-brown-luroey-s09007813/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/hemnes-bed-frame-with-4-storage-boxes-dark-gray-stained-luroey__0580344_pe670128_s5.jpg?f=xxs",
+            "name": "HEMNES",
+            "price": "349",
+            "url": "https://www.ikea.com/us/en/p/hemnes-bed-frame-with-4-storage-boxes-dark-gray-stained-luroey-s19227584/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/songesand-bed-frame-brown-luroey__0638582_pe699001_s5.jpg?f=xxs",
+            "name": "SONGESAND",
+            "price": "179",
+            "url": "https://www.ikea.com/us/en/p/songesand-bed-frame-brown-luroey-s59241069/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/slaekt-bed-frame-w-storage-slatted-bedbase-white__0648346_pe704865_s5.jpg?f=xxs",
+            "name": "SL\u00c4KT",
+            "price": "249",
+            "url": "https://www.ikea.com/us/en/p/slaekt-bed-frame-w-storage-slatted-bedbase-white-s99291991/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/songesand-bed-frame-with-2-storage-boxes-white-luroey__0637607_pe698419_s5.jpg?f=xxs",
+            "name": "SONGESAND",
+            "price": "209",
+            "url": "https://www.ikea.com/us/en/p/songesand-bed-frame-with-2-storage-boxes-white-luroey-s99241265/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/tarva-bed-frame-pine-luroey__0637611_pe698421_s5.jpg?f=xxs",
+            "name": "TARVA",
+            "price": "149",
+            "url": "https://www.ikea.com/us/en/p/tarva-bed-frame-pine-luroey-s29007794/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/malm-storage-bed-black-brown__0749129_pe745498_s5.jpg?f=xxs",
+            "name": "MALM",
+            "price": "499",
+            "url": "https://www.ikea.com/us/en/p/malm-storage-bed-black-brown-90404817/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/malm-bed-frame-high-black-brown-luroey__0638608_pe699032_s5.jpg?f=xxs",
+            "name": "MALM",
+            "price": "199",
+            "url": "https://www.ikea.com/us/en/p/malm-bed-frame-high-black-brown-luroey-s69009475/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/malm-high-bed-frame-2-storage-boxes-black-brown-luroey__0637597_pe698414_s5.jpg?f=xxs",
+            "name": "MALM",
+            "price": "274",
+            "url": "https://www.ikea.com/us/en/p/malm-high-bed-frame-2-storage-boxes-black-brown-luroey-s69176285/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/brimnes-bed-frame-with-storage-headboard-white-luroey__0638600_pe699029_s5.jpg?f=xxs",
+            "name": "BRIMNES",
+            "price": "379",
+            "url": "https://www.ikea.com/us/en/p/brimnes-bed-frame-with-storage-headboard-white-luroey-s59129609/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/nordli-bed-with-headboard-and-storage-white__0749134_pe745503_s5.jpg?f=xxs",
+            "name": "NORDLI",
+            "price": "549",
+            "url": "https://www.ikea.com/us/en/p/nordli-bed-with-headboard-and-storage-white-s69241422/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/hemnes-daybed-frame-with-3-drawers-white__0636371_pe697851_s5.jpg?f=xxs",
+            "name": "HEMNES",
+            "price": "299",
+            "url": "https://www.ikea.com/us/en/p/hemnes-daybed-frame-with-3-drawers-white-30349329/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/slattum-upholstered-bed-frame-knisa-light-gray__0768244_pe754388_s5.jpg?f=xxs",
+            "name": "SLATTUM",
+            "price": "129",
+            "url": "https://www.ikea.com/us/en/p/slattum-upholstered-bed-frame-knisa-light-gray-60464407/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/sagstua-bed-frame-black-luroey__0662135_pe719104_s5.jpg?f=xxs",
+            "name": "SAGSTUA",
+            "price": "199",
+            "url": "https://www.ikea.com/us/en/p/sagstua-bed-frame-black-luroey-s29268871/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/brimnes-bed-frame-with-storage-black-luroey__0638599_pe699030_s5.jpg?f=xxs",
+            "name": "BRIMNES",
+            "price": "249",
+            "url": "https://www.ikea.com/us/en/p/brimnes-bed-frame-with-storage-black-luroey-s69007551/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/hemnes-bed-frame-white-stain-luroey__0637516_pe698353_s5.jpg?f=xxs",
+            "name": "HEMNES",
+            "price": "229",
+            "url": "https://www.ikea.com/us/en/p/hemnes-bed-frame-white-stain-luroey-s99007856/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/songesand-bed-frame-with-4-storage-boxes-brown-luroey__0638590_pe699026_s5.jpg?f=xxs",
+            "name": "SONGESAND",
+            "price": "279",
+            "url": "https://www.ikea.com/us/en/p/songesand-bed-frame-with-4-storage-boxes-brown-luroey-s89241195/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/malm-high-bed-frame-4-storage-boxes-black-brown-luroey__0637597_pe698414_s5.jpg?f=xxs",
+            "name": "MALM",
+            "price": "349",
+            "url": "https://www.ikea.com/us/en/p/malm-high-bed-frame-4-storage-boxes-black-brown-luroey-s79009502/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/hauga-upholstered-bed-frame-vissle-gray__0789232_pe764315_s5.jpg?f=xxs",
+            "name": "HAUGA",
+            "price": "179",
+            "url": "https://www.ikea.com/us/en/p/hauga-upholstered-bed-frame-vissle-gray-90446365/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/leirvik-bed-frame-white-luroey__0637552_pe704561_s5.jpg?f=xxs",
+            "name": "LEIRVIK",
+            "price": "129",
+            "url": "https://www.ikea.com/us/en/p/leirvik-bed-frame-white-luroey-s09277292/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/tufjord-upholstered-bed-frame-gunnared-blue__0859775_pe781090_s5.jpg?f=xxs",
+            "name": "TUFJORD",
+            "price": "649",
+            "url": "https://www.ikea.com/us/en/p/tufjord-upholstered-bed-frame-gunnared-blue-50465695/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/slaekt-bed-frame-w-pull-out-bed-storage-white__0637775_pe698535_s5.jpg?f=xxs",
+            "name": "SL\u00c4KT",
+            "price": "229",
+            "url": "https://www.ikea.com/us/en/p/slaekt-bed-frame-w-pull-out-bed-storage-white-s19239450/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/trysil-bed-frame-dark-brown-luroey__0638591_pe699025_s5.jpg?f=xxs",
+            "name": "TRYSIL",
+            "price": "189",
+            "url": "https://www.ikea.com/us/en/p/trysil-bed-frame-dark-brown-luroey-s09007813/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/hemnes-bed-frame-with-4-storage-boxes-dark-gray-stained-luroey__0580344_pe670128_s5.jpg?f=xxs",
+            "name": "HEMNES",
+            "price": "349",
+            "url": "https://www.ikea.com/us/en/p/hemnes-bed-frame-with-4-storage-boxes-dark-gray-stained-luroey-s19227584/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/songesand-bed-frame-brown-luroey__0638582_pe699001_s5.jpg?f=xxs",
+            "name": "SONGESAND",
+            "price": "179",
+            "url": "https://www.ikea.com/us/en/p/songesand-bed-frame-brown-luroey-s59241069/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/slaekt-bed-frame-w-storage-slatted-bedbase-white__0648346_pe704865_s5.jpg?f=xxs",
+            "name": "SL\u00c4KT",
+            "price": "249",
+            "url": "https://www.ikea.com/us/en/p/slaekt-bed-frame-w-storage-slatted-bedbase-white-s99291991/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/songesand-bed-frame-with-2-storage-boxes-white-luroey__0637607_pe698419_s5.jpg?f=xxs",
+            "name": "SONGESAND",
+            "price": "209",
+            "url": "https://www.ikea.com/us/en/p/songesand-bed-frame-with-2-storage-boxes-white-luroey-s99241265/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/tarva-bed-frame-pine-luroey__0637611_pe698421_s5.jpg?f=xxs",
+            "name": "TARVA",
+            "price": "149",
+            "url": "https://www.ikea.com/us/en/p/tarva-bed-frame-pine-luroey-s29007794/"
+        },
+        {
+            "img-url": "https://www.ikea.com/us/en/images/products/malm-storage-bed-black-brown__0749129_pe745498_s5.jpg?f=xxs",
+            "name": "MALM",
+            "price": "499",
+            "url": "https://www.ikea.com/us/en/p/malm-storage-bed-black-brown-90404817/"
+        }
+    ]
+}
