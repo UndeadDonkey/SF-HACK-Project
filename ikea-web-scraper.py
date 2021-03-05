@@ -4,8 +4,7 @@ from selenium import webdriver
 import json
 
 
-# make this search_query customizeable
-search_query = "beds"
+search_query = input("Enter search: ")
 url = "https://www.ikea.com/us/en/search/products/?q=" + str(search_query)
 products_data = {}
 products_data[search_query] = []
@@ -14,10 +13,13 @@ def format_product_information(product, products_data):
     if product.get_attribute("data-product-name") != None:
         product_urls = product.find_elements_by_tag_name('a')
         product_url = product_urls[0].get_attribute("href")
+        image_urls = product.find_elements_by_tag_name('img')
+        image_url = image_urls[0].get_attribute('src')
         product_information = {
             "name": product.get_attribute("data-product-name"),
             "price": product.get_attribute("data-price"),
-            "url": product_url
+            "url": product_url,
+            "img": image_url
         }
         products_data[search_query].append(product_information.copy())
         
