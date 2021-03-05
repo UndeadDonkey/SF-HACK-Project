@@ -1,3 +1,12 @@
-p {
-    font-size: 69px;
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
