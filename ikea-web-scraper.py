@@ -26,7 +26,7 @@ def format_product_information(product, products_data):
 options = webdriver.ChromeOptions()
 options.add_experimental_option("excludeSwitches", ["enable-logging"])
 options.add_argument("headless")
-PATH = "C:\Program Files (x86)\chromedriver.exe"
+PATH = "chromedriver.exe"
 driver = webdriver.Chrome(options=options, executable_path=PATH)
 driver.get(url)
 
