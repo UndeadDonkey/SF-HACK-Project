@@ -1,379 +1,379 @@
 {
     "chair": [
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/loberget-blyskaer-swivel-chair-white__0806543_pe770241_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/loberget-blyskaer-swivel-chair-white__0806543_pe770241_s5.jpg?f=xxs",
             "name": "LOBERGET / BLYSK\u00c4R",
             "price": "24.99",
             "url": "https://www.ikea.com/us/en/p/loberget-blyskaer-swivel-chair-white-s79331865/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/pello-armchair-holmby-natural__38296_pe130209_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/pello-armchair-holmby-natural__38296_pe130209_s5.jpg?f=xxs",
             "name": "PELLO",
             "price": "49.99",
             "url": "https://www.ikea.com/us/en/p/pello-armchair-holmby-natural-70078463/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/strandmon-wing-chair-nordvalla-dark-gray__0325432_pe517964_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/strandmon-wing-chair-nordvalla-dark-gray__0325432_pe517964_s5.jpg?f=xxs",
             "name": "STRANDMON",
             "price": "249",
             "url": "https://www.ikea.com/us/en/p/strandmon-wing-chair-nordvalla-dark-gray-90359829/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/loberget-blyskaer-swivel-chair-with-pad-white-dark-gray__0806539_pe770240_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/loberget-blyskaer-swivel-chair-with-pad-white-dark-gray__0806539_pe770240_s5.jpg?f=xxs",
             "name": "LOBERGET / BLYSK\u00c4R",
             "price": "29.99",
             "url": "https://www.ikea.com/us/en/p/loberget-blyskaer-swivel-chair-with-pad-white-dark-gray-s39331909/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/adde-chair-white__0728280_pe736170_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/adde-chair-white__0728280_pe736170_s5.jpg?f=xxs",
             "name": "ADDE",
             "price": "12.5",
             "url": "https://www.ikea.com/us/en/p/adde-chair-white-10219178/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-hillared-dark-blue__0497130_pe628957_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-hillared-dark-blue__0497130_pe628957_s5.jpg?f=xxs",
             "name": "PO\u00c4NG",
             "price": "129",
             "url": "https://www.ikea.com/us/en/p/poaeng-armchair-birch-veneer-hillared-dark-blue-s99305926/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/ikea-ps-loemsk-swivel-chair-white-red__0726690_pe735385_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/ikea-ps-loemsk-swivel-chair-white-red__0726690_pe735385_s5.jpg?f=xxs",
             "name": "IKEA PS L\u00d6MSK",
             "price": "69.99",
             "url": "https://www.ikea.com/us/en/p/ikea-ps-loemsk-swivel-chair-white-red-10407136/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/koarp-armchair-gunnared-beige-black__0522280_pe643185_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/koarp-armchair-gunnared-beige-black__0522280_pe643185_s5.jpg?f=xxs",
             "name": "KOARP",
             "price": "169",
             "url": "https://www.ikea.com/us/en/p/koarp-armchair-gunnared-beige-black-s59221716/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/nolmyra-chair-birch-veneer-gray__0152020_pe310348_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/nolmyra-chair-birch-veneer-gray__0152020_pe310348_s5.jpg?f=xxs",
             "name": "NOLMYRA",
             "price": "39.99",
             "url": "https://www.ikea.com/us/en/p/nolmyra-chair-birch-veneer-gray-10233532/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-dark-blue__0204749_pe359788_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-dark-blue__0204749_pe359788_s5.jpg?f=xxs",
             "name": "EKER\u00d6",
             "price": "149",
             "url": "https://www.ikea.com/us/en/p/ekeroe-armchair-skiftebo-dark-blue-40262877/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/millberget-swivel-chair-bomstad-black__0724719_pe734602_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/millberget-swivel-chair-bomstad-black__0724719_pe734602_s5.jpg?f=xxs",
             "name": "MILLBERGET",
             "price": "69.99",
             "url": "https://www.ikea.com/us/en/p/millberget-swivel-chair-bomstad-black-40331705/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/renberget-swivel-chair-bomstad-black__0724701_pe734583_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/renberget-swivel-chair-bomstad-black__0724701_pe734583_s5.jpg?f=xxs",
             "name": "RENBERGET",
             "price": "49.99",
             "url": "https://www.ikea.com/us/en/p/renberget-swivel-chair-bomstad-black-50332238/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-dark-gray__0512767_pe638683_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-dark-gray__0512767_pe638683_s5.jpg?f=xxs",
             "name": "VEDBO",
             "price": "199",
             "url": "https://www.ikea.com/us/en/p/vedbo-armchair-gunnared-dark-gray-50424129/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/tobias-chair-clear-chrome-plated__0727342_pe735614_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/tobias-chair-clear-chrome-plated__0727342_pe735614_s5.jpg?f=xxs",
             "name": "TOBIAS",
             "price": "79",
             "url": "https://www.ikea.com/us/en/p/tobias-chair-clear-chrome-plated-80349671/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/uppland-armchair-remmarn-light-gray__0818473_pe774430_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/uppland-armchair-remmarn-light-gray__0818473_pe774430_s5.jpg?f=xxs",
             "name": "UPPLAND",
             "price": "279",
             "url": "https://www.ikea.com/us/en/p/uppland-armchair-remmarn-light-gray-s69322357/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/odger-chair-white-beige__0727334_pe735606_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/odger-chair-white-beige__0727334_pe735606_s5.jpg?f=xxs",
             "name": "ODGER",
             "price": "89",
             "url": "https://www.ikea.com/us/en/p/odger-chair-white-beige-60359996/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/ingolf-chair-white__0728152_pe736113_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/ingolf-chair-white__0728152_pe736113_s5.jpg?f=xxs",
             "name": "INGOLF",
             "price": "49",
             "url": "https://www.ikea.com/us/en/p/ingolf-chair-white-70103250/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/nilsove-norna-chair-with-chair-pad-rattan-white-laila-natural__0751763_pe747197_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/nilsove-norna-chair-with-chair-pad-rattan-white-laila-natural__0751763_pe747197_s5.jpg?f=xxs",
             "name": "NILSOVE / NORNA",
             "price": "96.99",
             "url": "https://www.ikea.com/us/en/p/nilsove-norna-chair-with-chair-pad-rattan-white-laila-natural-s69304122/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/eldberget-malskaer-swivel-chair-black__0814559_pe772629_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/eldberget-malskaer-swivel-chair-black__0814559_pe772629_s5.jpg?f=xxs",
             "name": "ELDBERGET / MALSK\u00c4R",
             "price": "34.99",
             "url": "https://www.ikea.com/us/en/p/eldberget-malskaer-swivel-chair-black-s59331847/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/molte-desk-chair-gray__0327355_pe519797_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/molte-desk-chair-gray__0327355_pe519797_s5.jpg?f=xxs",
             "name": "MOLTE",
             "price": "14.99",
             "url": "https://www.ikea.com/us/en/p/molte-desk-chair-gray-20292776/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/stefan-chair-brown-black__0727320_pe735593_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/stefan-chair-brown-black__0727320_pe735593_s5.jpg?f=xxs",
             "name": "STEFAN",
             "price": "25",
             "url": "https://www.ikea.com/us/en/p/stefan-chair-brown-black-00211088/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/loberget-blyskaer-swivel-chair-white__0806543_pe770241_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/loberget-blyskaer-swivel-chair-white__0806543_pe770241_s5.jpg?f=xxs",
             "name": "LOBERGET / BLYSK\u00c4R",
             "price": "24.99",
             "url": "https://www.ikea.com/us/en/p/loberget-blyskaer-swivel-chair-white-s79331865/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/pello-armchair-holmby-natural__38296_pe130209_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/pello-armchair-holmby-natural__38296_pe130209_s5.jpg?f=xxs",
             "name": "PELLO",
             "price": "49.99",
             "url": "https://www.ikea.com/us/en/p/pello-armchair-holmby-natural-70078463/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/strandmon-wing-chair-nordvalla-dark-gray__0325432_pe517964_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/strandmon-wing-chair-nordvalla-dark-gray__0325432_pe517964_s5.jpg?f=xxs",
             "name": "STRANDMON",
             "price": "249",
             "url": "https://www.ikea.com/us/en/p/strandmon-wing-chair-nordvalla-dark-gray-90359829/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/loberget-blyskaer-swivel-chair-with-pad-white-dark-gray__0806539_pe770240_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/loberget-blyskaer-swivel-chair-with-pad-white-dark-gray__0806539_pe770240_s5.jpg?f=xxs",
             "name": "LOBERGET / BLYSK\u00c4R",
             "price": "29.99",
             "url": "https://www.ikea.com/us/en/p/loberget-blyskaer-swivel-chair-with-pad-white-dark-gray-s39331909/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/adde-chair-white__0728280_pe736170_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/adde-chair-white__0728280_pe736170_s5.jpg?f=xxs",
             "name": "ADDE",
             "price": "12.5",
             "url": "https://www.ikea.com/us/en/p/adde-chair-white-10219178/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-hillared-dark-blue__0497130_pe628957_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-hillared-dark-blue__0497130_pe628957_s5.jpg?f=xxs",
             "name": "PO\u00c4NG",
             "price": "129",
             "url": "https://www.ikea.com/us/en/p/poaeng-armchair-birch-veneer-hillared-dark-blue-s99305926/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/ikea-ps-loemsk-swivel-chair-white-red__0726690_pe735385_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/ikea-ps-loemsk-swivel-chair-white-red__0726690_pe735385_s5.jpg?f=xxs",
             "name": "IKEA PS L\u00d6MSK",
             "price": "69.99",
             "url": "https://www.ikea.com/us/en/p/ikea-ps-loemsk-swivel-chair-white-red-10407136/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/koarp-armchair-gunnared-beige-black__0522280_pe643185_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/koarp-armchair-gunnared-beige-black__0522280_pe643185_s5.jpg?f=xxs",
             "name": "KOARP",
             "price": "169",
             "url": "https://www.ikea.com/us/en/p/koarp-armchair-gunnared-beige-black-s59221716/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/nolmyra-chair-birch-veneer-gray__0152020_pe310348_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/nolmyra-chair-birch-veneer-gray__0152020_pe310348_s5.jpg?f=xxs",
             "name": "NOLMYRA",
             "price": "39.99",
             "url": "https://www.ikea.com/us/en/p/nolmyra-chair-birch-veneer-gray-10233532/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-dark-blue__0204749_pe359788_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-dark-blue__0204749_pe359788_s5.jpg?f=xxs",
             "name": "EKER\u00d6",
             "price": "149",
             "url": "https://www.ikea.com/us/en/p/ekeroe-armchair-skiftebo-dark-blue-40262877/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/millberget-swivel-chair-bomstad-black__0724719_pe734602_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/millberget-swivel-chair-bomstad-black__0724719_pe734602_s5.jpg?f=xxs",
             "name": "MILLBERGET",
             "price": "69.99",
             "url": "https://www.ikea.com/us/en/p/millberget-swivel-chair-bomstad-black-40331705/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/renberget-swivel-chair-bomstad-black__0724701_pe734583_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/renberget-swivel-chair-bomstad-black__0724701_pe734583_s5.jpg?f=xxs",
             "name": "RENBERGET",
             "price": "49.99",
             "url": "https://www.ikea.com/us/en/p/renberget-swivel-chair-bomstad-black-50332238/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-dark-gray__0512767_pe638683_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-dark-gray__0512767_pe638683_s5.jpg?f=xxs",
             "name": "VEDBO",
             "price": "199",
             "url": "https://www.ikea.com/us/en/p/vedbo-armchair-gunnared-dark-gray-50424129/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/tobias-chair-clear-chrome-plated__0727342_pe735614_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/tobias-chair-clear-chrome-plated__0727342_pe735614_s5.jpg?f=xxs",
             "name": "TOBIAS",
             "price": "79",
             "url": "https://www.ikea.com/us/en/p/tobias-chair-clear-chrome-plated-80349671/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/uppland-armchair-remmarn-light-gray__0818473_pe774430_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/uppland-armchair-remmarn-light-gray__0818473_pe774430_s5.jpg?f=xxs",
             "name": "UPPLAND",
             "price": "279",
             "url": "https://www.ikea.com/us/en/p/uppland-armchair-remmarn-light-gray-s69322357/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/odger-chair-white-beige__0727334_pe735606_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/odger-chair-white-beige__0727334_pe735606_s5.jpg?f=xxs",
             "name": "ODGER",
             "price": "89",
             "url": "https://www.ikea.com/us/en/p/odger-chair-white-beige-60359996/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/ingolf-chair-white__0728152_pe736113_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/ingolf-chair-white__0728152_pe736113_s5.jpg?f=xxs",
             "name": "INGOLF",
             "price": "49",
             "url": "https://www.ikea.com/us/en/p/ingolf-chair-white-70103250/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/nilsove-norna-chair-with-chair-pad-rattan-white-laila-natural__0751763_pe747197_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/nilsove-norna-chair-with-chair-pad-rattan-white-laila-natural__0751763_pe747197_s5.jpg?f=xxs",
             "name": "NILSOVE / NORNA",
             "price": "96.99",
             "url": "https://www.ikea.com/us/en/p/nilsove-norna-chair-with-chair-pad-rattan-white-laila-natural-s69304122/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/eldberget-malskaer-swivel-chair-black__0814559_pe772629_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/eldberget-malskaer-swivel-chair-black__0814559_pe772629_s5.jpg?f=xxs",
             "name": "ELDBERGET / MALSK\u00c4R",
             "price": "34.99",
             "url": "https://www.ikea.com/us/en/p/eldberget-malskaer-swivel-chair-black-s59331847/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/molte-desk-chair-gray__0327355_pe519797_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/molte-desk-chair-gray__0327355_pe519797_s5.jpg?f=xxs",
             "name": "MOLTE",
             "price": "14.99",
             "url": "https://www.ikea.com/us/en/p/molte-desk-chair-gray-20292776/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/stefan-chair-brown-black__0727320_pe735593_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/stefan-chair-brown-black__0727320_pe735593_s5.jpg?f=xxs",
             "name": "STEFAN",
             "price": "25",
             "url": "https://www.ikea.com/us/en/p/stefan-chair-brown-black-00211088/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/loberget-blyskaer-swivel-chair-white__0806543_pe770241_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/loberget-blyskaer-swivel-chair-white__0806543_pe770241_s5.jpg?f=xxs",
             "name": "LOBERGET / BLYSK\u00c4R",
             "price": "24.99",
             "url": "https://www.ikea.com/us/en/p/loberget-blyskaer-swivel-chair-white-s79331865/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/pello-armchair-holmby-natural__38296_pe130209_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/pello-armchair-holmby-natural__38296_pe130209_s5.jpg?f=xxs",
             "name": "PELLO",
             "price": "49.99",
             "url": "https://www.ikea.com/us/en/p/pello-armchair-holmby-natural-70078463/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/strandmon-wing-chair-nordvalla-dark-gray__0325432_pe517964_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/strandmon-wing-chair-nordvalla-dark-gray__0325432_pe517964_s5.jpg?f=xxs",
             "name": "STRANDMON",
             "price": "249",
             "url": "https://www.ikea.com/us/en/p/strandmon-wing-chair-nordvalla-dark-gray-90359829/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/loberget-blyskaer-swivel-chair-with-pad-white-dark-gray__0806539_pe770240_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/loberget-blyskaer-swivel-chair-with-pad-white-dark-gray__0806539_pe770240_s5.jpg?f=xxs",
             "name": "LOBERGET / BLYSK\u00c4R",
             "price": "29.99",
             "url": "https://www.ikea.com/us/en/p/loberget-blyskaer-swivel-chair-with-pad-white-dark-gray-s39331909/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/adde-chair-white__0728280_pe736170_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/adde-chair-white__0728280_pe736170_s5.jpg?f=xxs",
             "name": "ADDE",
             "price": "12.5",
             "url": "https://www.ikea.com/us/en/p/adde-chair-white-10219178/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-hillared-dark-blue__0497130_pe628957_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-hillared-dark-blue__0497130_pe628957_s5.jpg?f=xxs",
             "name": "PO\u00c4NG",
             "price": "129",
             "url": "https://www.ikea.com/us/en/p/poaeng-armchair-birch-veneer-hillared-dark-blue-s99305926/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/ikea-ps-loemsk-swivel-chair-white-red__0726690_pe735385_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/ikea-ps-loemsk-swivel-chair-white-red__0726690_pe735385_s5.jpg?f=xxs",
             "name": "IKEA PS L\u00d6MSK",
             "price": "69.99",
             "url": "https://www.ikea.com/us/en/p/ikea-ps-loemsk-swivel-chair-white-red-10407136/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/koarp-armchair-gunnared-beige-black__0522280_pe643185_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/koarp-armchair-gunnared-beige-black__0522280_pe643185_s5.jpg?f=xxs",
             "name": "KOARP",
             "price": "169",
             "url": "https://www.ikea.com/us/en/p/koarp-armchair-gunnared-beige-black-s59221716/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/nolmyra-chair-birch-veneer-gray__0152020_pe310348_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/nolmyra-chair-birch-veneer-gray__0152020_pe310348_s5.jpg?f=xxs",
             "name": "NOLMYRA",
             "price": "39.99",
             "url": "https://www.ikea.com/us/en/p/nolmyra-chair-birch-veneer-gray-10233532/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-dark-blue__0204749_pe359788_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-dark-blue__0204749_pe359788_s5.jpg?f=xxs",
             "name": "EKER\u00d6",
             "price": "149",
             "url": "https://www.ikea.com/us/en/p/ekeroe-armchair-skiftebo-dark-blue-40262877/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/millberget-swivel-chair-bomstad-black__0724719_pe734602_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/millberget-swivel-chair-bomstad-black__0724719_pe734602_s5.jpg?f=xxs",
             "name": "MILLBERGET",
             "price": "69.99",
             "url": "https://www.ikea.com/us/en/p/millberget-swivel-chair-bomstad-black-40331705/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/renberget-swivel-chair-bomstad-black__0724701_pe734583_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/renberget-swivel-chair-bomstad-black__0724701_pe734583_s5.jpg?f=xxs",
             "name": "RENBERGET",
             "price": "49.99",
             "url": "https://www.ikea.com/us/en/p/renberget-swivel-chair-bomstad-black-50332238/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-dark-gray__0512767_pe638683_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-dark-gray__0512767_pe638683_s5.jpg?f=xxs",
             "name": "VEDBO",
             "price": "199",
             "url": "https://www.ikea.com/us/en/p/vedbo-armchair-gunnared-dark-gray-50424129/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/tobias-chair-clear-chrome-plated__0727342_pe735614_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/tobias-chair-clear-chrome-plated__0727342_pe735614_s5.jpg?f=xxs",
             "name": "TOBIAS",
             "price": "79",
             "url": "https://www.ikea.com/us/en/p/tobias-chair-clear-chrome-plated-80349671/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/uppland-armchair-remmarn-light-gray__0818473_pe774430_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/uppland-armchair-remmarn-light-gray__0818473_pe774430_s5.jpg?f=xxs",
             "name": "UPPLAND",
             "price": "279",
             "url": "https://www.ikea.com/us/en/p/uppland-armchair-remmarn-light-gray-s69322357/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/odger-chair-white-beige__0727334_pe735606_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/odger-chair-white-beige__0727334_pe735606_s5.jpg?f=xxs",
             "name": "ODGER",
             "price": "89",
             "url": "https://www.ikea.com/us/en/p/odger-chair-white-beige-60359996/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/ingolf-chair-white__0728152_pe736113_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/ingolf-chair-white__0728152_pe736113_s5.jpg?f=xxs",
             "name": "INGOLF",
             "price": "49",
             "url": "https://www.ikea.com/us/en/p/ingolf-chair-white-70103250/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/nilsove-norna-chair-with-chair-pad-rattan-white-laila-natural__0751763_pe747197_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/nilsove-norna-chair-with-chair-pad-rattan-white-laila-natural__0751763_pe747197_s5.jpg?f=xxs",
             "name": "NILSOVE / NORNA",
             "price": "96.99",
             "url": "https://www.ikea.com/us/en/p/nilsove-norna-chair-with-chair-pad-rattan-white-laila-natural-s69304122/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/eldberget-malskaer-swivel-chair-black__0814559_pe772629_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/eldberget-malskaer-swivel-chair-black__0814559_pe772629_s5.jpg?f=xxs",
             "name": "ELDBERGET / MALSK\u00c4R",
             "price": "34.99",
             "url": "https://www.ikea.com/us/en/p/eldberget-malskaer-swivel-chair-black-s59331847/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/molte-desk-chair-gray__0327355_pe519797_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/molte-desk-chair-gray__0327355_pe519797_s5.jpg?f=xxs",
             "name": "MOLTE",
             "price": "14.99",
             "url": "https://www.ikea.com/us/en/p/molte-desk-chair-gray-20292776/"
         },
         {
-            "img-url": "https://www.ikea.com/us/en/images/products/stefan-chair-brown-black__0727320_pe735593_s5.jpg?f=xxs",
+            "img": "https://www.ikea.com/us/en/images/products/stefan-chair-brown-black__0727320_pe735593_s5.jpg?f=xxs",
             "name": "STEFAN",
             "price": "25",
             "url": "https://www.ikea.com/us/en/p/stefan-chair-brown-black-00211088/"

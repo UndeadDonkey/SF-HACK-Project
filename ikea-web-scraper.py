@@ -19,7 +19,7 @@ def format_product_information(product, products_data):
             "name": product.get_attribute("data-product-name"),
             "price": product.get_attribute("data-price"),
             "url": product_url,
-            "img-url": image_url
+            "img": image_url
         }
         products_data[search_query].append(product_information.copy())
         
