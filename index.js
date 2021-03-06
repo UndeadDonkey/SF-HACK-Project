@@ -1,28 +1,35 @@
-// hardcoded some functions for now
+var budget = 1000;
+$(".budget-container").submit(function(e) {
+    budget = parseInt(document.querySelector('#budget').value);
+    //console.log(typeof budget); 
+});
+
 function display_product_information(product, i) {
     // ideally whenever a button is clicked we called the load json data function and then display the image
     // price and name additionally we could add extra functionality by adding a price budget
     // ex: show products below $300 dollars
-    console.log(`Product Name: ${product[i].name} | Price: $${product[i].price} | URL: ${product[i].url}`)
-    var mainDiv = document.createElement("div");
-    mainDiv.className = "product";
-    var innerDiv = document.createElement("div");
-    var img = document.createElement('img');
-    img.className = "furniture-img";
-    var name = document.createElement('P');
-    name.innerText = `PRODUCER: ${product[i].name}`;
-    var price = document.createElement('P');
-    price.innerText = `PRICE: $${product[i].price}`;
-    var link = document.createElement("a");
-    link.innerText = "Click here to visit the Ikea page";
-    link.href = product[i].url;
-    img.src = product[i].img;
-    mainDiv.appendChild(img);
-    innerDiv.appendChild(name);
-    innerDiv.appendChild(price);
-    innerDiv.appendChild(link);
-    mainDiv.appendChild(innerDiv);
-    document.querySelector(".product-container").appendChild(mainDiv);
+    if(product[i].price <= budget) {
+        console.log(`Product Name: ${product[i].name} | Price: $${product[i].price} | URL: ${product[i].url}`)
+        var mainDiv = document.createElement("div");
+        mainDiv.className = "product";
+        var innerDiv = document.createElement("div");
+        var img = document.createElement('img');
+        img.className = "furniture-img";
+        var name = document.createElement('P');
+        name.innerText = `PRODUCER: ${product[i].name}`;
+        var price = document.createElement('P');
+        price.innerText = `PRICE: $${product[i].price}`;
+        var link = document.createElement("a");
+        link.innerText = "Click here to visit the Ikea page";
+        link.href = product[i].url;
+        img.src = product[i].img;
+        mainDiv.appendChild(img);
+        innerDiv.appendChild(name);
+        innerDiv.appendChild(price);
+        innerDiv.appendChild(link);
+        mainDiv.appendChild(innerDiv);
+        document.querySelector(".product-container").appendChild(mainDiv);
+    }
 }
 
 function load_json_bed_data() {
