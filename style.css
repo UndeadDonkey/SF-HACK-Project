@@ -57,6 +57,7 @@
 }
 
 .product-container {
-    min-width: 425px;
+    min-width: 400px;
+    margin-right: 25px;
     border: solid black 1px;
 }

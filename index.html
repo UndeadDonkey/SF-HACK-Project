@@ -4,6 +4,7 @@
     <link type="text/css" rel="stylesheet" href="style.css">
   </head>
   <body>
+    <h1>Budget Ikea</h1>
     <div class="budget-form">
       <form class="budget-container" onsubmit="return false">
         <input id="budget" class="budget-container" type="number" placeholder="budget">
@@ -13,11 +14,11 @@
     <div class="dropdown">
       <p>Furniture: <span class="furniture-type"></span></p>
       <div class="dropdown-content">
-        <div onclick="load_json_bed_data()" class="bed">bed</div>
-        <div onclick="load_json_bookcases_data()" class="bookcase">bookcase</div>
-        <div onclick="load_json_desk_data()" class="desk">desk</div>
-        <div onclick="load_json_dresser_data()" class="dresser">dresser</div>
-        <div onclick="load_json_chair_data()" class="chair">chair</div>
+        <div onclick="//load_json_bed_data()" class="bed">bed</div>
+        <div onclick="//load_json_bookcases_data()" class="bookcase">bookcase</div>
+        <div onclick="//load_json_desk_data()" class="desk">desk</div>
+        <div onclick="//load_json_dresser_data()" class="dresser">dresser</div>
+        <div onclick="//load_json_chair_data()" class="chair">chair</div>
       </div>
     </div>
     <div class="content">
@@ -31,6 +32,6 @@
     
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script async type="text/javascript" src="./index.js"></script>
+    <script async type="module" src="./index.js"></script>
   </body>
 </html>

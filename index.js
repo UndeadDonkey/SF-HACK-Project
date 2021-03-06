@@ -1,6 +1,14 @@
+import {Floor, Wall} from "./furniture.js";
+
 var currentState = 0;
 var budget = 1000;
 const grid_container = document.querySelector(".grid-container");
+
+document.querySelector(".bed").addEventListener("click", load_json_bed_data, false);
+document.querySelector(".bookcase").addEventListener("click", load_json_bookcases_data, false);
+document.querySelector(".chair").addEventListener("click", load_json_chair_data, false);
+document.querySelector(".desk").addEventListener("click", load_json_desk_data, false);
+document.querySelector(".dresser").addEventListener("click", load_json_dresser_data, false);
 
 $(".budget-container").submit(function(e) {
     budget = parseInt(document.querySelector('#budget').value);
@@ -106,15 +114,38 @@ function clear_data(){
     document.querySelector(".product-container").innerHTML = "";
 }
 
+
+var rows = 4;
+var cols = 4;
+
 function makeGrid(rows, cols, boxSize) {
     grid_container.style.setProperty('--grid-rows', rows);
     grid_container.style.setProperty('--grid-cols', cols);
-    for(c = 0; c < (rows * cols); c++) {
+    for(let c = 0; c < (rows * cols); c++) {
         let cell = document.createElement("div");
-        cell.innerText = (c + 1);
+        cell.innerText = 0;
         cell.style.padding = boxSize + "px";
         grid_container.appendChild(cell).className = "grid-item";
     }
 }
 
-makeGrid(69, 99, 2);
+var grid_array = new Array(rows);
+
+for(var i = 0; i < cols; i++) {
+    grid_array[i] = new Array(cols);
+}
+
+for(var i = 0; i < rows; i++) {
+    for(var j = 0; j < cols; j++) {
+        grid_array[i][j] = new Floor(i, j);
+    }
+}
+
+makeGrid(rows, cols, 5);
+for(i = 0; i < grid_array.length; i++) {
+    for(j = 0; j < grid_array.length; j++) {
+        console.log(grid_array[i][j].getName());
+    }
+}
+grid_array[0][0] = new Wall(0, 0);
+console.log(grid_array[0][0].getName());
