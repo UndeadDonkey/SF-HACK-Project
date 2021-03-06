@@ -4,8 +4,14 @@
     <link type="text/css" rel="stylesheet" href="style.css">
   </head>
   <body>
+    <div class="budget-form">
+      <form class="budget-container" onsubmit="return false">
+        <input id="budget" class="budget-container" type="number" placeholder="budget">
+        <input type="submit" value="Submit" class="budget-button">
+      </form>
+    </div>
     <div class="dropdown">
-      <span>Furnitures</span>
+      <p>Furniture: <span class="furniture-type"></span></p>
       <div class="dropdown-content">
         <div onclick="load_json_bed_data()" class="bed">bed</div>
         <div onclick="load_json_bookcases_data()" class="bookcase">bookcase</div>
@@ -14,10 +20,11 @@
         <div onclick="load_json_chair_data()" class="chair">chair</div>
       </div>
     </div>
-    <form class="budget-container" onsubmit="return false">
-      <input id="budget" class="budget-container" type="number">
-    </form>
-    <div class="product-container">
+    <div class="content">
+      <div class="product-container"></div>
+      <div>
+        <div class="grid-container"></div>
+      </div>
     </div>
     
     

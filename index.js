@@ -1,7 +1,22 @@
+var currentState = 0;
 var budget = 1000;
+const grid_container = document.querySelector(".grid-container");
+
 $(".budget-container").submit(function(e) {
     budget = parseInt(document.querySelector('#budget').value);
-    //console.log(typeof budget); 
+
+    // added currentState to reload the data after a budget has been set
+    if(currentState == 1) {
+        load_json_bed_data();
+    } else if(currentState == 2) {
+        load_json_bookcases_data();
+    } else if(currentState == 3) {
+        load_json_chair_data();
+    } else if(currentState == 4) {
+        load_json_desk_data();
+    } else if(currentState == 5) {
+        load_json_dresser_data();
+    }
 });
 
 function display_product_information(product, i) {
@@ -36,51 +51,70 @@ function load_json_bed_data() {
     clear_data();
     $.getJSON("bed.json", function(data) {
         for(var i = 0; i < data.bed.length; i++) {
-            display_product_information(data.bed, i)
+            display_product_information(data.bed, i);
         }
-    })
+    });
+    currentState = 1;
+    document.querySelector(".furniture-type").innerText = "bed";
 }
 
 function load_json_bookcases_data() {
     clear_data();
     $.getJSON("bookcase.json", function(data) {
         for(var i = 0; i < data.bookcase.length; i++) {
-            display_product_information(data.bookcase, i)
+            display_product_information(data.bookcase, i);
         }
-    })
+    });
+    currentState = 2;
+    document.querySelector(".furniture-type").innerText = "bookcase";
 }
 
 function load_json_chair_data() {
     clear_data();
     $.getJSON("chair.json", function(data) {
         for(var i = 0; i < data.chair.length; i++) {
-            display_product_information(data.chair, i)
+            display_product_information(data.chair, i);
         }
-    })
+    });
+    currentState = 3;
+    document.querySelector(".furniture-type").innerText = "chair";
 }
 
 function load_json_desk_data() {
     clear_data();
     $.getJSON("desk.json", function(data) {
         for(var i = 0; i < data.desk.length; i++) {
-            display_product_information(data.desk, i)
+            display_product_information(data.desk, i);
         }
-    })
+    });
+    currentState = 4;
+    document.querySelector(".furniture-type").innerText = "desk";
 }
 
 function load_json_dresser_data() {
     clear_data();
     $.getJSON("dresser.json", function(data) {
         for(var i = 0; i < data.dresser.length; i++) {
-            display_product_information(data.dresser, i)
+            display_product_information(data.dresser, i);
         }
-    })
+    });
+    currentState = 5;
+    document.querySelector(".furniture-type").innerText = "dresser";
 }
-
-//load_json_dresser_data()
-
-// here we want to have functions to show json data when a button is pressed
 
 function clear_data(){
     document.querySelector(".product-container").innerHTML = "";
 }
+
+function makeGrid(rows, cols, boxSize) {
+    grid_container.style.setProperty('--grid-rows', rows);
+    grid_container.style.setProperty('--grid-cols', cols);
+    for(c = 0; c < (rows * cols); c++) {
+        let cell = document.createElement("div");
+        cell.innerText = (c + 1);
+        cell.style.padding = boxSize + "px";
+        grid_container.appendChild(cell).className = "grid-item";
+    }
+}
+
+makeGrid(69, 99, 2);
