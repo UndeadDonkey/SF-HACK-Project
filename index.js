@@ -17,7 +17,6 @@ function display_product_information(product, i) {
     link.innerText = "Click here to visit the Ikea page";
     link.href = product[i].url;
     img.src = product[i].img;
-    
     mainDiv.appendChild(img);
     innerDiv.appendChild(name);
     innerDiv.appendChild(price);
