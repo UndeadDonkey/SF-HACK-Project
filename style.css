@@ -13,3 +13,13 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.furniture-img {
+    height: 100px;
+}
+
+.product {
+    border: 1px black solid;
+    display: flex;
+    max-width: 400px;
+}

@@ -4,17 +4,25 @@ function display_product_information(product, i) {
     // price and name additionally we could add extra functionality by adding a price budget
     // ex: show products below $300 dollars
     console.log(`Product Name: ${product[i].name} | Price: $${product[i].price} | URL: ${product[i].url}`)
-
+    var mainDiv = document.createElement("div");
+    mainDiv.className = "product";
+    var innerDiv = document.createElement("div");
     var img = document.createElement('img');
-    var text = document.createElement('P');
-    text.innerText = `PRODUCER: ${product[i].name}      | PRICE: $${product[i].price}       | URL: `;
+    img.className = "furniture-img";
+    var name = document.createElement('P');
+    name.innerText = `PRODUCER: ${product[i].name}`;
+    var price = document.createElement('P');
+    price.innerText = `PRICE: $${product[i].price}`;
     var link = document.createElement("a");
-    link.innerText = product[i].url;
+    link.innerText = "Click here to visit the Ikea page";
     link.href = product[i].url;
-    text.appendChild(link);
     img.src = product[i].img;
-    document.querySelector(".product-container").appendChild(img);
-    document.querySelector(".product-container").appendChild(text);
+    mainDiv.appendChild(img);
+    innerDiv.appendChild(name);
+    innerDiv.appendChild(price);
+    innerDiv.appendChild(link);
+    mainDiv.appendChild(innerDiv);
+    document.querySelector(".product-container").appendChild(mainDiv);
 }
 
 function load_json_bed_data() {
