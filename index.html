@@ -4,42 +4,49 @@
     <link type="text/css" rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Budget Ikea</h1>
-    <div class="budget-form">
-      <form class="budget-container" onsubmit="return false">
-        <input id="budget" class="budget-container" type="number" placeholder="budget">
-        <input type="submit" value="Submit" class="budget-button">
-      </form>
+    <div class="header">
+        <h1>Budget Ikea</h1>
     </div>
-    <div class="dropdown">
-      <p>Furniture: <span class="furniture-type"></span></p>
-      <div class="dropdown-content">
-        <div onclick="//load_json_bed_data()" class="bed">bed</div>
-        <div onclick="//load_json_bookcases_data()" class="bookcase">bookcase</div>
-        <div onclick="//load_json_desk_data()" class="desk">desk</div>
-        <div onclick="//load_json_dresser_data()" class="dresser">dresser</div>
-        <div onclick="//load_json_chair_data()" class="chair">chair</div>
-      </div>
-    </div>
-    <div class="content">
-      <div class="product-container"></div>
-      <div>
-        <div class="furniture-hotbar-container">
-          <button class="clear-grid-button">CLEAR GRID</button>
-          <button class="place-wall-button">PLACE WALL</button>
-          <button class="place-bed-button">PLACE BED</button>
-          <button class="place-bookcase-button">PLACE BOOKCASE</button>
-          <button class="place-desk-button">PLACE DESK</button>
-          <button class="place-chair-button">PLACE CHAIR</button>
-          <button class="place-dresser-button">PLACE DRESSER</button>
-          <button class="place-floor-button">PLACE FLOOR</button>
-          <button class="rotate-item-placement">ROTATE PLACEMENT</button>
-          <!-- This button is for temporary use please delete later-->
-          <button class="print-grid">PRINT GRID</button>
+    <div class="body">
+      <div class="left">
+        <div class="budget-form">
+          <form class="budget-container" onsubmit="return false">
+            <input id="budget" class="budget-container" type="number" placeholder="budget">
+            <input type="submit" value="Submit" class="budget-button">
+          </form>
         </div>
-        <div class="grid-container"></div>
+        <div class="dropdown">
+          <p>Furniture: <span class="furniture-type"></span></p>
+          <div class="dropdown-content">
+            <div onclick="//load_json_bed_data()" class="bed">bed</div>
+            <div onclick="//load_json_bookcases_data()" class="bookcase">bookcase</div>
+            <div onclick="//load_json_desk_data()" class="desk">desk</div>
+            <div onclick="//load_json_dresser_data()" class="dresser">dresser</div>
+            <div onclick="//load_json_chair_data()" class="chair">chair</div>
+          </div>
+        </div>
+        <div class="product-container"></div>
+      </div>
+      <div class="content">
+        <div>
+          <div class="furniture-hotbar-container">
+            <button class="clear-grid-button">CLEAR GRID</button>
+            <button class="place-wall-button">PLACE WALL</button>
+            <button class="place-bed-button">PLACE BED</button>
+            <button class="place-bookcase-button">PLACE BOOKCASE</button>
+            <button class="place-desk-button">PLACE DESK</button>
+            <button class="place-chair-button">PLACE CHAIR</button>
+            <button class="place-dresser-button">PLACE DRESSER</button>
+            <button class="place-floor-button">PLACE FLOOR</button>
+            <button class="rotate-item-placement">ROTATE PLACEMENT</button>
+            <!-- This button is for temporary use please delete later-->
+            <button class="print-grid">PRINT GRID</button>
+          </div>
+          <div class="grid-container"></div>
+        </div>
       </div>
     </div>
+    <div class="footer">foot</div>
     
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>

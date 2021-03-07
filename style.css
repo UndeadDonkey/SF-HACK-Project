@@ -20,7 +20,7 @@
 }
 
 .product {
-    border: 1px black solid;
+    border-bottom: 1px black solid;
     display: flex;
     max-width: 400px;
 }
@@ -57,11 +57,43 @@
 
 .product-container {
     min-width: 400px;
+    max-height: 400px;
     margin-right: 25px;
-    border: solid black 1px;
+    overflow: auto;
+    border-right: solid black 1px;
+    border-bottom: solid black 1px;
 }
 
 .furniture-hotbar-container {
     border: solid black 1px;
     display: inline-block;
+}
+
+h1 {
+    color: #e28a2b;
+    border-radius: 100%;
+    border-left: #8a2be2 5px solid;
+    border-right: #e22b8a 5px solid;
+    padding: 10px;
+    display: inline-block;
+}
+
+.header {
+    border-bottom: 2px black solid;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.body {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.left {
+    border-right: 3px black solid;
+    margin-right: 25px;
+}
+
+.footer {
+    border-top: black 2px solid;
 }
