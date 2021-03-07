@@ -117,7 +117,7 @@ function clear_data(){
 
 var rows = 14;
 var cols = 40;
-
+var boxSize = 5;
 // this function makes the CSS/HTML GRID
 function makeGrid(rows, cols, boxSize) {
     grid_container.style.setProperty('--grid-rows', rows);
@@ -139,7 +139,7 @@ function makeGrid(rows, cols, boxSize) {
 
 let grid_array = Array(rows).fill().map(() => Array(cols));
 initalizeGridArray();
-makeGrid(rows, cols, 5);
+makeGrid(rows, cols, boxSize);
 
 // this function actually makes a 2D array to hold furniture objects
 function initalizeGridArray() {
@@ -158,6 +158,22 @@ function printGrid() {
     }
 }
 
+var rotated = false;
+var xDirection = 0;
+var yDirection = 1;
+function rotate_products() {
+    rotated = !rotated;
+    if(rotated) {
+        document.querySelector('.rotate-item-placement').innerText = "ROTATE PLACEMENT HORIZONTALLY";
+        xDirection = 1;
+        yDirection = 0;
+    } else if(!rotated) {
+        document.querySelector('.rotate-item-placement').innerText = "ROTATE PLACEMENT VERTICALLY";
+        xDirection = 0;
+        yDirection = 1;
+    }
+}
+
 // these eventListeners change it so when we click on grid we place that furniture type onto the grid
 document.querySelector(".clear-grid-button").addEventListener("click", clearGrid, false);
 document.querySelector(".place-wall-button").addEventListener("click", () => {currentPlacer = 1}, false);
@@ -167,23 +183,66 @@ document.querySelector(".place-desk-button").addEventListener("click", () => {cu
 document.querySelector(".place-chair-button").addEventListener("click", () => {currentPlacer = 5}, false);
 document.querySelector(".place-dresser-button").addEventListener("click", () => {currentPlacer = 6}, false);
 document.querySelector(".place-floor-button").addEventListener("click", () => {currentPlacer = 7}, false)
+document.querySelector(".rotate-item-placement").addEventListener("click", rotate_products, false)
 // this button is for temporary use please delete later
 document.querySelector(".print-grid").addEventListener("click", printGrid, false);
 
-// create a function that checks if the furniture item fits
+
 function isValidPlacement(x, y) {
     if((currentPlacer == 1 || currentPlacer == 5) && grid_array[x][y].getClassName() == "Floor") {
+        // Checks if we can place a wall or chair
         return true;
-    }  
+    } else if(currentPlacer == 4 || currentPlacer == 6) {
+        try {
+            // checks if we can place a desk or dresser
+            if(grid_array[x][y].getClassName() == "Floor" && grid_array[x + xDirection][y + yDirection].getClassName() == "Floor") {
+                return true;
+            } 
+        } catch (error) {
+            console.log(error);
+        }
+    } else if(currentPlacer == 3) {
+        try {
+            if(grid_array[x][y].getClassName() == "Floor" && grid_array[x + xDirection][y + yDirection].getClassName() == "Floor" 
+            && grid_array[x + (xDirection * 2)][y + (yDirection * 2)].getClassName() == "Floor") {
+                // check if we can place a bookcase
+                return true;
+             }
+        } catch (error) {
+            console.log(error)
+        }
+    } else if(currentPlacer == 2) {
+        try {
+            // checks if we can place a bed or not
+            // this has to be done differently than the other ones
+            var counter = 0;
+            for(var i = x; i < (x + (xDirection * 7) + (yDirection * 5)); i++) {
+                for(var j = y; j < (y + (xDirection * 5) + (yDirection * 7)); j++) {
+                    // doing it this way bcuz doing !== Floor causes overlap i believe
+                    if(grid_array[i][j].getClassName() == "Floor") {
+                        counter++;
+                    }
+                }
+            }
+            
+            if(counter == 5 * 7) {
+                return true;
+            }
+
+        } catch (error) {
+            console.log(error);
+        }
+    }
     return false;
 }
 
 var currentPlacer = 0;
 
+// god please forgive me for this atroicous code for i have sinned
 function placeFurniture(position) {
     
-    var xCoord = position.substring(position.indexOf("#") + 1, position.indexOf("-"));
-    var yCoord = position.substring(position.indexOf("-") + 1);
+    var xCoord = parseInt(position.substring(position.indexOf("#") + 1, position.indexOf("-")));
+    var yCoord = parseInt(position.substring(position.indexOf("-") + 1));
 
     
     if(currentPlacer == 1 && isValidPlacement(xCoord, yCoord)) {
@@ -191,19 +250,47 @@ function placeFurniture(position) {
         document.getElementById(position).style.backgroundColor = "red";
         document.getElementById(position).innerText = "W";
         grid_array[xCoord][yCoord] = new Wall(xCoord, yCoord);
-    } else if(currentPlacer == 2) {
+    } else if(currentPlacer == 2 && isValidPlacement(xCoord, yCoord)) {
         console.log(`PLACED BED AT (${xCoord}, ${yCoord})`);
-    } else if(currentPlacer == 3) {
-        console.log(`PLACED BOOKCASE AT (${xCoord}, ${yCoord})`);
-    } else if(currentPlacer == 4) {
-        console.log(`PLACED DESK AT (${xCoord}, ${yCoord})`);
+        for(var i = xCoord; i < (xCoord + (xDirection * 7) + (yDirection * 5)); i++) {
+            for(var j = yCoord; j < (yCoord + (xDirection * 5) + (yDirection * 7)); j++) {
+                document.getElementById(`Position#${i}-${j}`).style.backgroundColor = "orange";
+                document.getElementById(`Position#${i}-${j}`).innerText = "BE";
+                grid_array[i][j] = new Bed(i, j);
+            }
+        }
+    } else if(currentPlacer == 3 && isValidPlacement(xCoord, yCoord)) {
+        console.log(`PLACED BOOKCASE AT (${xCoord}, ${yCoord}) to (${xCoord + (xDirection * 2)}, ${yCoord + (yDirection * 2)})`);
+        document.getElementById(position).style.background = "yellow";
+        document.getElementById(position).innerText = "B";
+        document.getElementById("Position#" + (xCoord + xDirection) + "-" + (yCoord + yDirection)).style.backgroundColor = "yellow";
+        document.getElementById("Position#" + (xCoord + xDirection) + "-" + (yCoord + yDirection)).innerText = "B";
+        document.getElementById("Position#" + (xCoord + (xDirection * 2)) + "-" + (yCoord + (yDirection * 2))).style.backgroundColor = "yellow";
+        document.getElementById("Position#" + (xCoord + (xDirection * 2)) + "-" + (yCoord + (yDirection * 2))).innerText = "B";
+        grid_array[xCoord][yCoord] = new Bookcase(xCoord, yCoord);
+        grid_array[xCoord + xDirection][yCoord + yDirection] = new Bookcase(xCoord + xDirection, yCoord + yDirection);
+        grid_array[xCoord + (xDirection * 2)][yCoord + (yDirection * 2)] = new Bookcase(xCoord + (xDirection * 2), yCoord + (yDirection * 2));
+    } else if(currentPlacer == 4 && isValidPlacement(xCoord, yCoord)) {
+        console.log(`PLACED DESK AT (${xCoord}, ${yCoord}) to (${xCoord + xDirection}, ${yCoord + yDirection})`);
+        document.getElementById(position).style.backgroundColor = "green";
+        document.getElementById(position).innerText = "D";
+        document.getElementById("Position#" + (xCoord + xDirection) + "-" + (yCoord + yDirection)).style.backgroundColor = "green";
+        document.getElementById("Position#" + (xCoord + xDirection) + "-" + (yCoord + yDirection)).innerText = "D";
+        grid_array[xCoord][yCoord] = new Desk(xCoord, yCoord);
+        grid_array[xCoord + xDirection][yCoord + yDirection] = new Desk(xCoord + xDirection, yCoord + yDirection);
     } else if(currentPlacer == 5 && isValidPlacement(xCoord, yCoord)) {
         console.log(`PLACED CHAIR AT (${xCoord}, ${yCoord})`);
         document.getElementById(position).style.backgroundColor = "blue";
         document.getElementById(position).innerText = "C";
         grid_array[xCoord][yCoord] = new Chair(xCoord, yCoord);
-    } else if(currentPlacer == 6) {
-        console.log(`PLACED DRESSER AT (${xCoord}, ${yCoord})`);
+    } else if(currentPlacer == 6 && isValidPlacement(xCoord, yCoord)) {
+        console.log(`PLACED DRESSER AT (${xCoord}, ${yCoord}) to (${xCoord + xDirection}, ${yCoord + yDirection})`);
+        document.getElementById(position).style.backgroundColor = "purple";
+        document.getElementById(position).innerText = "DR";
+        document.getElementById("Position#" + (xCoord + xDirection) + "-" + (yCoord + yDirection)).style.backgroundColor = "purple";
+        document.getElementById("Position#" + (xCoord + xDirection) + "-" + (yCoord + yDirection)).innerText = "DR";
+        grid_array[xCoord][yCoord] = new Dresser(xCoord, yCoord);
+        grid_array[xCoord + xDirection][yCoord + yDirection] = new Dresser(xCoord + xDirection, yCoord + yDirection);
     } else if(currentPlacer == 7) {
         document.getElementById(position).style.backgroundColor = "white";
         document.getElementById(position).innerText = "F";
@@ -213,7 +300,10 @@ function placeFurniture(position) {
 
 function clearGrid() {
     initalizeGridArray();
-    //printGrid();
+    document.querySelector(".grid-container").innerHTML = "";
+    makeGrid(rows, cols, boxSize);
     currentPlacer = 0;
 }
+
+
 
