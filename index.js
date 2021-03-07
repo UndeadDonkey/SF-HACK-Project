@@ -1,4 +1,4 @@
-import {Floor, Wall} from "./furniture.js";
+import {Floor, Wall, Bed, Bookcase, Chair, Desk, Dresser} from "./furniture.js";
 
 var currentState = 0;
 var budget = 1000;
@@ -115,37 +115,105 @@ function clear_data(){
 }
 
 
-var rows = 4;
-var cols = 4;
+var rows = 14;
+var cols = 40;
 
+// this function makes the CSS/HTML GRID
 function makeGrid(rows, cols, boxSize) {
     grid_container.style.setProperty('--grid-rows', rows);
     grid_container.style.setProperty('--grid-cols', cols);
+    var xPos = 0;
     for(let c = 0; c < (rows * cols); c++) {
+        if(c % 40 == 0 && c > 0) {
+            xPos++;
+        }
         let cell = document.createElement("div");
-        cell.innerText = 0;
+        cell.innerText = "F";
+        cell.setAttribute('id', `Position#${xPos}-${c % 40}`);
         cell.style.padding = boxSize + "px";
+        cell.addEventListener("click", (e) => {placeFurniture(e.target.id)});
         grid_container.appendChild(cell).className = "grid-item";
     }
 }
 
-var grid_array = new Array(rows);
 
-for(var i = 0; i < cols; i++) {
-    grid_array[i] = new Array(cols);
-}
-
-for(var i = 0; i < rows; i++) {
-    for(var j = 0; j < cols; j++) {
-        grid_array[i][j] = new Floor(i, j);
-    }
-}
-
+let grid_array = Array(rows).fill().map(() => Array(cols));
+initalizeGridArray();
 makeGrid(rows, cols, 5);
-for(i = 0; i < grid_array.length; i++) {
-    for(j = 0; j < grid_array.length; j++) {
-        console.log(grid_array[i][j].getName());
+
+// this function actually makes a 2D array to hold furniture objects
+function initalizeGridArray() {
+    for(var i = 0; i < rows; i++) {
+        for(var j = 0; j < cols; j++) {
+            grid_array[i][j] = new Floor(i, j, "Floor");
+        }
     }
 }
-grid_array[0][0] = new Wall(0, 0);
-console.log(grid_array[0][0].getName());
+
+function printGrid() {
+    for(var i = 0; i < grid_array.length; i++) {
+        for(var j = 0; j < grid_array[i].length; j++) {
+            console.log(grid_array[i][j].getName());
+        }
+    }
+}
+
+// these eventListeners change it so when we click on grid we place that furniture type onto the grid
+document.querySelector(".clear-grid-button").addEventListener("click", clearGrid, false);
+document.querySelector(".place-wall-button").addEventListener("click", () => {currentPlacer = 1}, false);
+document.querySelector(".place-bed-button").addEventListener("click", () => {currentPlacer = 2}, false);
+document.querySelector(".place-bookcase-button").addEventListener("click", () => {currentPlacer = 3}, false);
+document.querySelector(".place-desk-button").addEventListener("click", () => {currentPlacer = 4}, false);
+document.querySelector(".place-chair-button").addEventListener("click", () => {currentPlacer = 5}, false);
+document.querySelector(".place-dresser-button").addEventListener("click", () => {currentPlacer = 6}, false);
+document.querySelector(".place-floor-button").addEventListener("click", () => {currentPlacer = 7}, false)
+// this button is for temporary use please delete later
+document.querySelector(".print-grid").addEventListener("click", printGrid, false);
+
+// create a function that checks if the furniture item fits
+function isValidPlacement(x, y) {
+    if((currentPlacer == 1 || currentPlacer == 5) && grid_array[x][y].getClassName() == "Floor") {
+        return true;
+    }  
+    return false;
+}
+
+var currentPlacer = 0;
+
+function placeFurniture(position) {
+    
+    var xCoord = position.substring(position.indexOf("#") + 1, position.indexOf("-"));
+    var yCoord = position.substring(position.indexOf("-") + 1);
+
+    
+    if(currentPlacer == 1 && isValidPlacement(xCoord, yCoord)) {
+        console.log(`PLACED WALL AT (${xCoord}, ${yCoord})`);
+        document.getElementById(position).style.backgroundColor = "red";
+        document.getElementById(position).innerText = "W";
+        grid_array[xCoord][yCoord] = new Wall(xCoord, yCoord);
+    } else if(currentPlacer == 2) {
+        console.log(`PLACED BED AT (${xCoord}, ${yCoord})`);
+    } else if(currentPlacer == 3) {
+        console.log(`PLACED BOOKCASE AT (${xCoord}, ${yCoord})`);
+    } else if(currentPlacer == 4) {
+        console.log(`PLACED DESK AT (${xCoord}, ${yCoord})`);
+    } else if(currentPlacer == 5 && isValidPlacement(xCoord, yCoord)) {
+        console.log(`PLACED CHAIR AT (${xCoord}, ${yCoord})`);
+        document.getElementById(position).style.backgroundColor = "blue";
+        document.getElementById(position).innerText = "C";
+        grid_array[xCoord][yCoord] = new Chair(xCoord, yCoord);
+    } else if(currentPlacer == 6) {
+        console.log(`PLACED DRESSER AT (${xCoord}, ${yCoord})`);
+    } else if(currentPlacer == 7) {
+        document.getElementById(position).style.backgroundColor = "white";
+        document.getElementById(position).innerText = "F";
+        grid_array[xCoord][yCoord] = new Floor(xCoord, yCoord, "Floor");
+    }
+}
+
+function clearGrid() {
+    initalizeGridArray();
+    //printGrid();
+    currentPlacer = 0;
+}
+
